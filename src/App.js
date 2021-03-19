@@ -4,7 +4,7 @@ import { Route, Switch } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import RandomCharacters from "./components/RandomCharacters";
-import DeathCount from "./components/DeathCount";
+import BreakingBadEpisodes from "./components/BreakingBadEpi";
 
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/randomcharacters" exact component={RandomCharacters} />
-        <Route path="/deathcount" exact component={DeathCount} />
+        <Route path="/breakingbadepisodes" exact component={BreakingBadEpisodes} />
       </Switch>
     </div>
   );

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const DeathCount = () => {
+const BreakingBadEpisodes = () => {
   return (
     <div>
       
@@ -8,4 +8,4 @@ const DeathCount = () => {
   )
 }
 
-export default DeathCount
+export default BreakingBadEpisodes
