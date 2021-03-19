@@ -4,7 +4,7 @@ import axios from "axios";
 const RandomCharacters = () => {
   return (
     <div>
-      
+      <h1>Random Characters</h1>
     </div>
   )
 }
