@@ -25,6 +25,17 @@ background-color: black;
 	color: white;
 }
 
+.the-fallen {
+	padding: 3em;
+	background: rgb(26, 5, 8);
+	display: flex;
+	flex-direction: column;
+	align-items: center; 
+	justify-content: center; 
+	color: white;
+  border:black
+}
+
 .character-button {
 	padding: 15px 2rem;
 	border: none;

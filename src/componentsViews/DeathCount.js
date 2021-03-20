@@ -10,11 +10,6 @@ const DeathCount = () => {
   const fetchCharacterDeathCount = async () => {
 
 
-    // let death_URL = 'https://www.breakingbadapi.com/api/deaths';
-    // const response = await axios.get(death_URL);
-    // console.log(response.data)
-    // setCharacterDeathCount(response.data);
-
     const response = await getDeathCount();
     console.log(response.data);
     setCharacterDeathCount(response.data);
