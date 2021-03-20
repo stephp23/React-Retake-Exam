@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react';
+import photo from '../images/photo.jpg';
 
 const Home = () => {
   return (
     <div className="Home">
-      <h1>This is the Mobile Lab</h1>
+      <h1>Welcome to the Mobile Lab</h1>
+      <img src={photo} alt="lab-photo" />
     </div>
   )
 }

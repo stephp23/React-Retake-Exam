@@ -24,9 +24,8 @@ const RandomCharacters = () => {
   }, []);
   
   return (
-    <div className="character-text">
-      <h1>Which character are you?</h1>
-      {/* <button onClick={fetchRandomCharacters}>Surprise Me</button> */}
+    <div className="character">
+      <h1 className="character-text">Which character are you?</h1>
       <h2>{randomCharacters.name}</h2>
       <h3>Alias: "{randomCharacters.name}"</h3>
       <div>

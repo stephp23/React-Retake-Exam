@@ -15,9 +15,9 @@ background-color: black;
 	padding-top: 2em;
 }
 
-.dog {
+.character {
 	padding: 3em;
-	background: rgb(221, 135, 149);
+	background: rgb(26, 5, 8);
 	display: flex;
 	flex-direction: column;
 	align-items: center; 
@@ -28,14 +28,14 @@ background-color: black;
 .character-button {
 	padding: 15px 2rem;
 	border: none;
-	background: #7e2556;;
+	background: #114306;
 	color: white;
 	border-radius: 5px;
 }
 
 .character-button:hover {
 	cursor: pointer;
-	background: #a01561;
+	background: #72020d;
 }
 
 .character-button:focus {
@@ -50,7 +50,7 @@ background-color: black;
 nav {
 	display: flex;
 	justify-content: space-between;
-	background: rgb(61, 5, 44);
+	background: rgb(181, 120, 55);
   color: white;
 }
 
