@@ -1,9 +1,10 @@
 import './App.css';
 import { Route, Switch } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import Home from "./components/Home";
-import RandomCharacters from "./components/RandomCharacters";
-import BreakingBadEpisodes from "./components/BreakingBadEpi";
+import Navbar from "./componentsViews/Navbar";
+import Home from "./componentsViews/Home";
+import RandomCharacters from "./componentsViews/RandomCharacters";
+import DeathCount from "./componentsViews/DeathCount";
+import Footer from "./componentsViews/Footer";
 
 
 function App() {
@@ -13,8 +14,9 @@ function App() {
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/randomcharacters" exact component={RandomCharacters} />
-        <Route path="/breakingbadepisodes" exact component={BreakingBadEpisodes} />
+        <Route path="/deathcount" exact component={DeathCount} />
       </Switch>
+      <Footer />
     </div>
   );
 }
