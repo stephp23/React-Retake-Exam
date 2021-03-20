@@ -9,11 +9,6 @@ const RandomCharacters = () => {
   const [randomCharacters, setRandomCharacters] = useState([]);
 
   const fetchRandomCharacters = async () => {
-    // let randomCharacters_URL = 'https://www.breakingbadapi.com/api/character/random';
-    // let randomCharacters_URL = `${BASE_URL}${RANDOM_CHARACTERS_ENDPOINT}`
-    // const response = await axios.get(randomCharacters_URL);
-    // console.log(response.data[0]);
-    // console.log(response.data[0].occupation[0]);
 
     const response = await getRandomCharacters();
     setRandomCharacters(response.data[0]);
